@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.noticia.field_descripcion
     - field.field.node.noticia.field_fecha
+    - field.field.node.noticia.field_observaciones
     - node.type.noticia
   module:
     - datetime
@@ -36,6 +37,14 @@ content:
     weight: 122
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_observaciones:
+    type: text_textfield
+    weight: 123
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   path:
     type: path

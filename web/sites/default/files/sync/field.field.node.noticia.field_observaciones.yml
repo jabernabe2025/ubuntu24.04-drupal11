@@ -1,0 +1,22 @@
+uuid: f9586d08-1f3e-4cc5-a930-aac190d5abc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_observaciones
+    - node.type.noticia
+  module:
+    - text
+id: node.noticia.field_observaciones
+field_name: field_observaciones
+entity_type: node
+bundle: noticia
+label: observaciones
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text
