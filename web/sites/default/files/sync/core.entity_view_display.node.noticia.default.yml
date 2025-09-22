@@ -1,0 +1,28 @@
+uuid: a99374b9-5cc9-4659-bf7e-d9253e743853
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.noticia.field_descripcion
+    - node.type.noticia
+  module:
+    - text
+    - user
+id: node.noticia.default
+targetEntityType: node
+bundle: noticia
+mode: default
+content:
+  field_descripcion:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
